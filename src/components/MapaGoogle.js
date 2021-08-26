@@ -36,7 +36,7 @@ const Map = ({ res, handleZoomChangedAndDrag }) => {
             }}
           >
             {lojaSelecionada && lojaSelecionada.name === item.name && (
-              <InfoWindow // Aparecer uma janela quando clicar em algum marker
+              <InfoWindow // Aparecer uma janela quando clicar em algum marker no mapa
                 onCloseClick={(e) => setLojaSelecionada(null)}
                 position={{
                   lat: lojaSelecionada.lat,

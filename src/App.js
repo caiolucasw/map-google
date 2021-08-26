@@ -32,7 +32,7 @@ function App() {
     <div className="d-flex flex-column align-items-center">
       <div className="w-100 mb-4">
         <MapaGoogle
-          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`}
+          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDpgQt8Jry7leheKRsIRj_KDD_Jv1ma3KM`}
           loadingElement={<div style={{ height: "100%" }}></div>}
           containerElement={<div style={{ height: `400px` }} />}
           mapElement={<div style={{ height: `100%` }} />}
