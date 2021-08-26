@@ -1,10 +1,14 @@
 # map-google
 
-Mostrar lugares específicos de acordo com a localização
+Mostrar lojas específicas de acordo com a localização do mapa
 
 ## Execução
 
-Para a execução dessa aplicação, basta ir no diretório raiz e executar o comando: __npm run dev__
+Para a execução dessa aplicação, basta ir no diretório raiz deste projeto e executar o comando: __npm run dev__
+
+## Bibliotecas Usadas
+
+Foi usado o __react-google-maps__ para a interação com a API do Google Maps, e __bootstrap__ para adicionar alguns estilos.
 
 ## Sobre a Aplicação
 
